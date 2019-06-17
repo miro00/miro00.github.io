@@ -86,7 +86,11 @@ header a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 250px;
+  width: 300px;
+  min-height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-wrap .nav a {
@@ -213,7 +217,7 @@ header a {
           transform: scale(1.1);
 }
 
-.main .content .content-wrap .bla {
+.main .content .content-wrap .projects {
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -231,7 +235,7 @@ header a {
           align-items: center;
 }
 
-.main .content .content-wrap .bla .post2 {
+.main .content .content-wrap .projects .post2 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -251,15 +255,15 @@ header a {
   cursor: pointer;
 }
 
-.main .content .content-wrap .bla .post2:hover {
+.main .content .content-wrap .projects .post2:hover {
   background: #ebebeb;
 }
 
-.main .content .content-wrap .bla .post2:active {
+.main .content .content-wrap .projects .post2:active {
   background: #DBDBDB;
 }
 
-.main .content .content-wrap .bla .post2 i {
+.main .content .content-wrap .projects .post2 i {
   font-size: 1.6em;
 }
 
